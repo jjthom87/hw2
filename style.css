@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Fugaz+One);
+#hangman {
+	width: 400px;
+	height: 260px;
+}
+.hangmantext {
+	font-size: 48px;
+}
+#jared {
+    width: 400px;
+    height: 75px;
+    background-color: #68d6b3;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 100;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-color: #68d6b3;}
+    25%  {background-color: blue;}
+    50%  {background-color: #68d6b3;}
+    100% {background-color: blue;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: #68d6b3;}
+    25%  {background-color: blue;}
+    50%  {background-color: #68d6b3;}
+    100% {background-color: blue;}
+}
+#arrow {
+	font-size: 40px;
+}
+#tag {
+	font-family: 'Fugaz One', cursive;
+	font-size: 50px;
+}
+#jared:visited {
+	color: white;
+}
+#arrow2 {
+	font-size: 40px;
+}
+#jaredpic {
+    width: 200px;
+    height: 200px;
+    background: red;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#jaredpic:hover {
+    width: 400px;
+    height: 400px;
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+}
+#footer {
+    text-shadow: 2px 2px 5px blue;
+    font-size: 16px;
+    color: #68d6b3;
+}
+#stack {
+	padding-left: 10px;
+}

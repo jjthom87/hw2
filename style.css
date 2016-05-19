@@ -1,10 +1,149 @@
 @import url(https://fonts.googleapis.com/css?family=Fugaz+One);
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+.container:hover {
+    background-image: "green_cup.png";
+    color: black;
+}
+.container2:hover {
+    background-color: black;
+    color:red;
+}
+#port:hover {
+    font-size:24px;
+    color: white;
+}
+#aboot:hover {
+    font-size:24px;
+    color: white;
+}
+#con:hover {
+    font-size:24px;
+    color: white;
+}   
+.ba {
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button5:hover {
+    background-color: #555555;
+    color: white;
+}
 #hangman {
 	width: 400px;
 	height: 260px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+#hangman2{
+    margin-left: 224px;
+    width: 260px;
+    height: 260px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
 }
 .hangmantext {
 	font-size: 48px;
+}
+#trivia {
+    width: 400px;
+    height: 260px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+#trivia2{
+    margin-left: 224px;
+    width: 260px;
+    height: 260px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+.triviatext {
+    font-size: 48px;
+}
+#rpc {
+    width: 400px;
+    height: 260px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+#rpc2{
+    margin-left: 224px;
+    width: 260px;
+    height: 260px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+.rpctext{
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+#rpg {
+    width: 400px;
+    height: 260px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+#rpg2{
+    margin-left: 224px;
+    width: 260px;
+    height: 260px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+.rpgtext{
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+#widget {
+    width: 400px;
+    height: 260px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+#widget2{
+    margin-left: 224px;
+    width: 260px;
+    height: 260px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+.widgettext {
+    font-size: 48px;
+}
+.coming{
+    margin-top: -198px;
+    margin-bottom: 142px;
+    transform:rotateZ(40deg);
+    font-family: 'Sigmar One', cursive;
+    text-shadow: 2px 2px 5px yellow;
+    color: red;
+    font-size: 50px;
+}
+#rutgers {
+    margin-left: 395px;
+    margin-top: -342px;
 }
 #jared {
     width: 400px;
